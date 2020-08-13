@@ -1,0 +1,67 @@
+.geral {
+    background-color: #000000;
+}
+
+.top-bar img{
+    width: 100%;
+    height: auto;
+    max-height: 25vw;
+    object-fit: cover;
+}
+
+.perfil {
+    position: relative;
+    margin: -8.5em 0em 1.5em 2.6em;
+    float: left;
+
+}
+
+.perfil img {
+    border-radius: 1.6em;
+    height: 300px;
+    margin-left: 0.6em;
+}
+
+.nome-perfil {
+    color: #ffffff;
+    float: right;
+    padding-top: 6em;
+    padding-left: 1em;
+}
+
+#perfil-name {
+    font-family: Raleway;
+    padding-top: 0.8em;
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+.link {
+    padding-top: 3.5em;
+}
+
+.link a {
+    margin-left: 4.5em;
+}
+
+#texto-desc {
+    text-align: center;
+    font-family: Raleway;
+    color: white;
+    font-size: 1.6em;
+    padding-top: 5em;
+}
+
+.span-class {
+    text-align: left;
+}
+
+@media (max-width: 790px) {
+    .link {
+        padding-top: 3.5em;
+    }
+    
+    .link a {
+        margin-left: 40em;
+    }
+}
