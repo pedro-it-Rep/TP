@@ -1,0 +1,37 @@
+.geral {
+    background-color: #000000;
+    font-family: Raleway;
+}
+
+.links {
+    align-items: center;
+    margin-left: 2.2em;
+}
+
+.links a {
+    color: white;
+    justify-content: space-between;
+}
+
+.title {
+
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    padding-top: 0.6em;
+
+}
+
+.desc {
+
+    color: white;
+    padding-left: 2rem;
+    padding-top: 1.6em;
+}
+
+.imagens img{
+    align-items: center;
+    padding-right: 3.2em;
+    width: auto;
+    height: 25em;
+}

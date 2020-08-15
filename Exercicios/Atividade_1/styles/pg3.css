@@ -1,0 +1,55 @@
+.geral {
+    background-color: #000000;
+    font-family: Raleway;
+}
+
+.links {
+    align-items: center;
+    margin-left: 2.2em;
+}
+
+.links a {
+    color: white;
+    justify-content: space-between;
+}
+
+.title {
+
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    padding-top: 0.6em;
+    padding-left: 4rem;
+
+}
+
+.title2 {
+
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    padding-top: 0.6em;
+    padding-left: 4rem;
+
+}
+
+.obs {
+    color: white;
+    padding-left: 4em;
+}
+
+
+.desc {
+
+    color: white;
+    padding-left: 4rem;
+
+}
+
+.imagens img {
+    margin: 0;
+    width: auto;
+    align-items: center;
+    height: 20em;
+
+}
