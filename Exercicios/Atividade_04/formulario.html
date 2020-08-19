@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+    
+    <title>Formulario</title>
+</head>
+<body class="geral">
+
+    <h1>Cadastre seu currículo</h1>
+
+    <br>
+    <br>
+
+    <h2>1. Dados Pessoais</h2>
+
+    <form>
+        <div class="area">
+            <div class="personaldata">
+                <p>Nome </p>
+                <p>Data de Nascimento </p>
+                <p>Estado Civil </p>
+                <p>Sexo </p>
+            </div>
+
+            <div class="respostas">
+
+            <p class="entradas"> <input type="text" name="nome" placeholder="Digite Seu Nome" required> </p>
+            <p class="dateipt"> <input type="date" name="nasc" placeholder="DD/MM/ANO" required> </p>
+            <a class="dropmenudefault"> <select name="estadocivil">
+                <option value="" >Estado Civil</option>
+                <option value="1">Solteiro(a)</option>
+                <option value="2">Casado(a)</option>
+                <option value="3">Viúvo(a)</option>
+                <option value="4">Divorciado(a)</option>
+            </select>
+            </a>
+
+            <div class="radioOpt">
+            <input type="radio" name="sexo" VALUE="masc"> <span>Masculino</span>
+            <input type="radio" name="sexo" VALUE="fem"> <span>Feminino</span>
+            </div>
+
+            </div>
+        </div>
+
+        <h2>2. Objetivo </h2>
+
+        <br>
+
+        <div class="area">
+
+            <div class="obj">
+                <p class="objetivo">Objetivo </p>
+            </div>
+
+            <div class="respostas">
+                <a class="objarea"><textarea name="Objetivo" rows="3" placeholder="Digite seu texto" required cols="63"></textarea>
+                </a>
+
+            </div>
+
+        </div>
+
+        <h2>3. Contato </h2>
+        <br>
+
+        <div class="area">
+            <div class="contato">
+                <p>Endereço </p>
+                <p>Cidade/Estado </p>
+                <p>CEP </p>
+                <p>Telefone </p>
+                <p>E-Mail </p>
+                <p class="sociais">Redes Sociais </p>
+
+            </div>
+
+            <div class="respostas">
+                <p class="entradas"><input type="text" name="endereco" placeholder="Digite Seu Endereço" required> </p>
+                <p class="cidade"><input type="text" name="cidade" placeholder="Digite Sua Cidade" required> &nbsp;/&nbsp;
+                    <select name="estado">
+                        <option value="" >Estado</option>
+                        <option value="1">AC</option>
+                        <option value="2">AL</option>
+                        <option value="3">AP</option>
+                        <option value="4">AM</option>
+                        <option value="5">BA</option>
+                        <option value="6">CE</option>
+                        <option value="7">DF</option>
+                        <option value="8">ES</option>
+                        <option value="9">GO</option>
+                        <option value="10">MA</option>
+                        <option value="11">MT</option>
+                        <option value="12">MS</option>
+                        <option value="13">MG</option>
+                        <option value="14">PA</option>
+                        <option value="15">PB</option>
+                        <option value="16">PR</option>
+                        <option value="17">PE</option>
+                        <option value="18">PI</option>
+                        <option value="19">RJ</option>
+                        <option value="20">RN</option>
+                        <option value="21">RS</option>
+                        <option value="22">RO</option>
+                        <option value="23">RR</option>
+                        <option value="24">SC</option>
+                        <option value="25">SP</option>
+                        <option value="26">SE</option>
+                        <option value="27">TO</option>
+                    </select>
+                </p>
+
+                <p class="entradas"> <input type="text" name="CEP" placeholder="Digite seu CEP no formato 99999-999" pattern="[0-9]{5}[\-]{1}[0-9]{3}"required> </p> 
+                <p class="entradas"> <input type="tel" name="tel" placeholder="Digite seu telefone no formato (99) 9999-9999" required pattern="[\(][0-9]{2}[\)][ ][0-9]{4}[\-][0-9]{4}"> </p>
+                <p class="entradas"><input type="email" name="email" required placeholder="Digite seu E-mail"> </p>
+                <p class="entradasSM"><img src="./Imagens/face.png" width="16px"> http://facebook.com/ <input type="text" name="facebook" placeholder="Perfil Facebook"><br>
+                <img src="./Imagens/linkedin.png" width="16px"> http://linkedin.com/ <input type="text" name="linkedin" placeholder="Perfil Linkedin"><br>
+                <img src="./Imagens/skype.png" width="16px"> <input type="text" name="skype" placeholder="Perfil Skype"></p>
+            </div>
+        </div>
+
+        <h2>4. Conhecimentos </h2>
+        <br>
+
+        <div class="area">
+            <div class="conhecimentos">
+                <p class="LP">Linguagens de Programação</p>
+                <p>Idiomas</p>
+            </div>
+
+            <div class="respostas">
+               <p class="check"><input type="checkbox" name="PL" value="C/C++"> C/C++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="PL" value="Java"> Java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="PL" value="Visual Basic"> Visual Basic<br>
+                <input type="checkbox" name="PL" value=".net"> .Net &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="PL" value="PHP"> PHP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="PL" value="Python"> Python<br>
+                <input type="checkbox" name="PL" value="HTML"> HTML </p>
+            
+
+                <p class="lingua"> Inglês <select name="English">
+                    <option value="" >Nivel</option>
+                    <option value="básico">Básico</option>
+                    <option value="intermediario">Intermediario</option>
+                    <option value="avancado">Avançado</option>
+                </select>
+                &nbsp;&nbsp;| &nbsp;&nbsp;Espanhol <select name="Spanish">
+                    <option value="" >Nivel</option>
+                    <option value="básico">Básico</option>
+                    <option value="intermediario">Intermediario</option>
+                    <option value="avancado">Avançado</option>
+                </select>
+                </p>
+            </div>
+
+        </div>
+
+        <button type="reset">
+            Limpar
+        </button>
+
+        <button type="submit">
+            Enviar  
+        </button>
+    </form>
+
+</body>
+</html>
