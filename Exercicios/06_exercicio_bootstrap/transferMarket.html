@@ -1,0 +1,2054 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="TrsMkt.css">
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Github Logo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Menu</title>
+</head>
+
+<body id="bodymarket">
+    <!-- NavBar com as ligas trabalhadas -->
+    <nav class="navbar navbar-light navbar-default" style="background-color: white; opacity: 80%;">
+        <div class="container-fluid mx-auto" style="width: 60%;">
+            <!-- Logos das ligas -->
+            <a class="navbar-brand" href="https://www.bundesliga.com/en/bundesliga" target="_blank">
+                <img src="./imagens/Logos/bundesligaLogo.png" alt="Bundesliga logo">
+            </a>
+
+            <a class="navbar-brand" href="https://www.laliga.com/en-GB/laliga-santander" target="_blank">
+                <img src="./imagens/Logos/laligaLogo.png" alt="La Liga logo">
+            </a>
+
+            <a class="navbar-brand" href="https://www.ligue1.com/" target="_blank">
+                <img src="./imagens/Logos/ligue1Logo.png" alt="Ligue 1 logo">
+            </a>
+
+            <a class="navbar-brand" href="https://www.premierleague.com/" target="_blank">
+                <img src="./imagens/Logos/premierLogo.png" alt="Premier League logo">
+            </a>
+
+            <a class="navbar-brand" href="http://www.legaseriea.it/en" target="_blank">
+                <img src="./imagens/Logos/serieaLogo.png" alt="Serie A logo">
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 id="titulo">Mercado de Transferencia</h1>
+            <br>
+        Fique por dentro das tranferencias das principais ligas do mundo
+        
+        <p> <br><br>*Informações referentes ao dia 09/09/2020 <br>
+        **Informações retiradas do site <a href="https://www.transfermarkt.com.br/">TransferMarkt</a> </p>
+    </div>
+
+    <div class="container">
+        <div class="accordion" id="divisaoLigas">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <img id="logos" src="./imagens/Logos/premierLogo.png" alt="Premier Logo" style="margin-right: 32px;">
+                    Premier League
+                  </button>
+                </h2>
+              </div>
+        
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#divisaoLigas">
+                <div class="card-body">
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#Arsenal" aria-expanded="true">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/11.png?lm=1489787850" alt="Arsenal">
+                    </button>
+
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#AstonVilla" aria-expanded="false" >
+                        <img src="https://tmssl.akamaized.net/images/wappen/verysmall/405.png?lm=1469443765" alt="Aston Villa">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#BrightonAlbion" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/1237.png?lm=1492718902" alt="Brighton Albion">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#Burnley" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/1132.png?lm=1587809239" alt="Burnley">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#Chelsea" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/631.png?lm=1444558831" alt="Chelsea">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#CrystalPalace" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/873.png?lm=1457723287" alt="Crystal Palace">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#Everton" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/29.png?lm=1445949846" alt="Everton">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#Fulham" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/931.png?lm=1556831687" alt="Fulham">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#LeedsUnited" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/399.png?lm=1407654193" alt="Leeds United">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#LeicesterCity" aria-expanded="false">
+                        <img src="https://tmssl.akamaized.net/images/wappen/verysmall/1003.png?lm=1472229265" alt="Leicester City">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#Liverpool" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/31.png?lm=1456567819" alt="Liverpool">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#ManchesterCity" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/281.png?lm=1467356331" alt="Manchester City">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#ManchesterUnited" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/985.png?lm=1457975903" alt="Manchester United">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#NewCastle" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/762.png?lm=1472921161" alt="NewCastle">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#SheffieldUnited" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/350.png?lm=1409254138" alt="Sheffield United">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#Southampton" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/180.png?lm=1444560086" alt="Southampton">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#TottehamHotspur" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/148.png?lm=1544345801" alt="Totteham Hotspur">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#WestBromwichAlbion" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/984.png?lm=1457991758" alt="West Bromwich Albion">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#WestHamUnited" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/379.png?lm=1464675260" alt="West Ham United">
+                    </button>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#WolverhamptonWanderers" aria-expanded="false">
+                        <img src= "https://tmssl.akamaized.net/images/wappen/verysmall/543.png?lm=1467496784" alt="Wolverhampton Wanderers">
+                    </button>
+
+                    <div class="collapse" id="Arsenal" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Gabriel Magalhães</td>
+                                        <td>22</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/26.png?lm=1520611569" title="Brasil" alt="Brasil"></td>
+                                        <td>Zagueiro</td>
+                                        <td>26,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Pablo Mari</td>
+                                        <td>26</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/157.png?lm=1520611569" title="Espanha" alt="Espanha"></td>
+                                        <td>Zagueiro</td>
+                                        <td>8,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Cédric Soares</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/136.png?lm=1520611569" title="Portugal" alt="Portugal"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Willian</td>
+                                        <td>32</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/26.png?lm=1520611569" title="Brasil" alt="Brasil"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+                                </tbody>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th style="margin-right: -16px;">Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Konstantinos Mavropanos</td>
+                                        <td>22</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/56.png?lm=1520611569" title="Grécia" alt="Grécia"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Valor do Empréstimo: <br> 250 mil €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Henrikh Mkhitaryan</td>
+                                        <td>31</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/10.png?lm=1520611569" title="Arménia" alt="Arménia"></td>
+                                        <td>Meia Ofensivo</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="AstonVilla" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Ollie Watkins</td>
+                                        <td>24</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Centroavante</td>
+                                        <td>30,80 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Matty Cash</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"> </td>
+                                        <td>Lateral Direito</td>
+                                        <td>15,75 milhões €</td>
+                                    </tr>
+
+                                </tbody>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Rushian Hepburn-Murphy</td>
+                                        <td>21</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Centroavante</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Matija Sarkic</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/216.png?lm=1520611569" title="Montenegro" alt="Montenegro"></td>
+                                        <td>Goleiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>James Chester</td>
+                                        <td>31</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/191.png?lm=1520611569" title="País de Gales" alt="País de Gales"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Borja Bastón</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/157.png?lm=1520611569" title="Espanha" alt="Espanha"></td>
+                                        <td>Centroavante</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Danny Drinkwater</td>
+                                        <td>30</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Meia Central</td>
+                                        <td>Fim do Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Pepe Reina</td>
+                                        <td>37</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/157.png?lm=1520611569" title="Espanha" alt="Espanha"></td>
+                                        <td>Goleiro</td>
+                                        <td>Fim do Empréstimo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="BrightonAlbion" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Joël Veltman</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/122.png?lm=1520611569" title="Holanda" alt="Holanda"></td>
+                                        <td>Zagueiro</td>
+                                        <td>1,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jensen Weir</td>
+                                        <td>18</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"> </td>
+                                        <td>Meia Central</td>
+                                        <td>550 mil €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Adam Lallana</td>
+                                        <td>32</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"> </td>
+                                        <td>Meia Ofensivo</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+                                </tbody>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Anthony Knockaert</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/50.png?lm=1520611569" title="França" alt="França"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>11,70 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Aaron Mooy</td>
+                                        <td>29</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/12.png?lm=1520611569" title="Austrália" alt="Austrália"></td>
+                                        <td>Meia Central</td>
+                                        <td>4,50 milhões €</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Shane Duffy</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/72.png?lm=1520611569" title="Irlanda " alt="Irlanda "></td>
+                                        <td>Zagueiro</td>
+                                        <td>Valor de empréstimo: <br>
+                                            2,20 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>David Button</td>
+                                        <td>31</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>1,10 milhões €</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Martín Montoya</td>
+                                        <td>29</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/157.png?lm=1520611569" title="Espanha" alt="Espanha"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Percy Tau</td>
+                                        <td>26</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/159.png?lm=1520611569" title="África do Sul" alt="África do Sul"></td>
+                                        <td>Centroavante</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Jan Mlakar</td>
+                                        <td>21</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/155.png?lm=1520611569" title="Eslovénia" alt="Eslovénia"></td>
+                                        <td>Centroavante</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Matt Clarke</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Leo Östigard</td>
+                                        <td>20</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/125.png?lm=1520611569" title="Noruega" alt="Noruega"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Glenn Murray</td>
+                                        <td>36</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Centroavante</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="Burnley" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                  
+                                </tbody>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Jeff Hendrick</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/72.png?lm=1520611569" title="Irlanda " alt="Irlanda "></td>
+                                        <td>Meia Central</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Joe Hart</td>
+                                        <td>33</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Aaron Lennon</td>
+                                        <td>33</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Ben Gibson</td>
+                                        <td>27</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="Chelsea" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Kai Havertz</td>
+                                        <td>21</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/40.png?lm=1520612525" title="Alemanha" alt="Alemanha"></td>
+                                        <td>Meia Ofensivo</td>
+                                        <td>80,00 milhões €</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Timo Werner</td>
+                                        <td>24</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/40.png?lm=1520612525" title="Alemanha" alt="Alemanha"></td>
+                                        <td>Centroavante</td>
+                                        <td>53,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Ben Chilwell</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Lateral Esquerdo</td>
+                                        <td>50,20 milhões €</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Hakim Ziyech</td>
+                                        <td>27</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/107.png?lm=1520611569" title="Marrocos" alt="Marrocos"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>40,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Malang Sarr</td>
+                                        <td>21</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/50.png?lm=1520611569" title="França" alt="França"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Thiago Silva</td>
+                                        <td>35</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/26.png?lm=1520611569" title="Brasil" alt="Brasil"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                </tbody>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Álvaro Morata</td>
+                                        <td>27</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/157.png?lm=1520611569" title="Espanha" alt="Espanha"></td>
+                                        <td>Centroavante</td>
+                                        <td>56,00 milhões €</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Mario Pasalic</td>
+                                        <td>25</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/37.png?lm=1520611569" title="Croácia" alt="Croácia"></td>
+                                        <td>Meia Central</td>
+                                        <td>15,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Nathan</td>
+                                        <td>24</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/26.png?lm=1520611569" title="Brasil" alt="Brasil"></td>
+                                        <td>Ponta Esquerda</td>
+                                        <td>3,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Willian</td>
+                                        <td>32</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/26.png?lm=1520611569" title="Brasil" alt="Brasil"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Pedro</td>
+                                        <td>33</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/157.png?lm=1520611569" title="Espanha" alt="Espanha"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Danilo Pantic</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/215.png?lm=1520611569" title="Sérvia" alt="Sérvia"></td>
+                                        <td>Meia Central</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Ethan Ampadu</td>
+                                        <td>19</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/191.png?lm=1520611569" title="País de Gales" alt="País de Gales"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jamal Blackman</td>
+                                        <td>26</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jamie Cumming</td>
+                                        <td>20</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kenedy</td>
+                                        <td>24</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/26.png?lm=1520611569" title="Brasil" alt="Brasil"></td>
+                                        <td>Meia Esquerda</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="CrystalPalace" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Eberechi Eze</td>
+                                        <td>22</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Meia Ofensivo</td>
+                                        <td>17,80 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Nathan Ferguson</td>
+                                        <td>19</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                   
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="Everton" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Allan</td>
+                                        <td>29</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/26.png?lm=1520611569" title="Brasil" alt="Brasil"></td>
+                                        <td>Meia Central</td>
+                                        <td>25,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Abdoulaye Doucouré</td>
+                                        <td>27</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/50.png?lm=1520611569" title="França" alt="França"></td>
+                                        <td>Meia Central</td>
+                                        <td>22,10 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Niels Nkounkou</td>
+                                        <td>19</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/50.png?lm=1520611569" title="França" alt="França"></td>
+                                        <td>Lateral Esquerdo</td>
+                                        <td>270 mil €</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>James Rodríguez</td>
+                                        <td>29</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/83.png?lm=1520611569" title="Colômbia" alt="Colômbia"></td>
+                                        <td>Meia Ofensivo</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Morgan Schneiderlin</td>
+                                        <td>30</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/50.png?lm=1520611569" title="França" alt="França"></td>
+                                        <td>Volante</td>
+                                        <td>2,23 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Maarten Stekelenburg</td>
+                                        <td>37</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/122.png?lm=1520611569" title="Holanda" alt="Holanda"></td>
+                                        <td>Goleiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Djibril Sidibé</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/50.png?lm=1520611569" title="França" alt="França"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>Fim de Empréstimo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="Fulham" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Anthony Knockaert</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/50.png?lm=1520611569" title="França" alt="França"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>11,70 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Harrison Reed</td>
+                                        <td>25</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Volante</td>
+                                        <td>9,00 milhões €</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Mario Lemina</td>
+                                        <td>26</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/51.png?lm=1520611569" title="Gabão" alt="Gabão"></td>
+                                        <td>Volante</td>
+                                        <td>Valor de empréstimo: <br>
+                                            2,20 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Antonee Robinson</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/184.png?lm=1520611569" title="Estados Unidos da América" alt="Estados Unidos da América"></td>
+                                        <td>Lateral Esquerdo</td>
+                                        <td>2,10 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Alphonse Areola</td>
+                                        <td>27</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/50.png?lm=1520611569" title="França" alt="França"></td>
+                                        <td>Goleiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Luca de la Torre</td>
+                                        <td>22</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/157.png?lm=1520611569" title="Espanha" alt="Espanha"></td>
+                                        <td>Meia Direita</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Magnus Norman</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Alfie Mawson</td>
+                                        <td>26</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Steven Sessegnon</td>
+                                        <td>20</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Harry Arter</td>
+                                        <td>30</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/72.png?lm=1520611569" title="Irlanda " alt="Irlanda "></td>
+                                        <td>Meia Central</td>
+                                        <td>Fim do Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Terence Kongolo</td>
+                                        <td>26</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/122.png?lm=1520611569" title="Holanda" alt="Holanda"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Fim do Empréstimo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="LeedsUnited" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Rodrigo</td>
+                                        <td>29</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/157.png?lm=1520611569" title="Espanha" alt="Espanha"></td>
+                                        <td>Centroavante</td>
+                                        <td>30,00 milhões €</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Hélder Costa</td>
+                                        <td>26</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/136.png?lm=1520611569" title="Portugal" alt="Portugal"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>17,70 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Robin Koch</td>
+                                        <td>24</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/40.png?lm=1520612525" title="Alemanha" alt="Alemanha"></td>
+                                        <td>Zagueiro</td>
+                                        <td>13,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Illan Meslier</td>
+                                        <td>20</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/50.png?lm=1520611569" title="França" alt="França"></td>
+                                        <td>Goleiro</td>
+                                        <td>6,50 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Joe Gelhardt</td>
+                                        <td>18</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Centroavante</td>
+                                        <td>1,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Cody Drameh</td>
+                                        <td>18</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>440 mil €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jack Harrison</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+                               
+                                <tbody>
+                                    <tr>
+                                        <td>Laurens De Bock</td>
+                                        <td>27</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/19.png?lm=1520611569" title="Bélgica" alt="Bélgica"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Ben White</td>
+                                        <td>22</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Fim do Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jean-Kévin Augustin</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/50.png?lm=1520611569" title="França" alt="França"></td>
+                                        <td>Centroavante</td>
+                                        <td>Fim do Empréstimo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="LeicesterCity" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Timothy Castagne</td>
+                                        <td>24</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/19.png?lm=1520611569" title="Bélgica" alt="Bélgica"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>24,00 milhões €</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Ben Chilwel</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Lateral Esquerdo</td>
+                                        <td>50,20 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>George Thomas</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/191.png?lm=1520611569" title="País de Gales" alt="País de Gales"></td>
+                                        <td>Meia Ofensivo</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Bartosz Kapustka</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/135.png?lm=1520611569" title="Polónia" alt="Polónia"></td>
+                                        <td>Meia Ofensivo</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Ryan Bennett</td>
+                                        <td>30</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Fim do Empréstimo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="Liverpool" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td>Konstantinos Tsimikas</td>
+                                        <td>24</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/56.png?lm=1520611569" title="Grécia" alt="Grécia"></td>
+                                        <td>Lateral Esquerdo</td>
+                                        <td>13,00 milhões €</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Dejan Lovren</td>
+                                        <td>31</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/37.png?lm=1520611569" title="Croácia" alt="Croácia"></td>
+                                        <td>Zagueiro</td>
+                                        <td>12,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Ovie Ejaria</td>
+                                        <td>22</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Meia Central</td>
+                                        <td>3,90 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Adam Lallana</td>
+                                        <td>32</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Meia Ofensivo</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Sheyi Ojo</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="ManchesterCity" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Nathan Aké</td>
+                                        <td>25</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/122.png?lm=1520611569" title="Holanda" alt="Holanda"></td>
+                                        <td>Zagueiro</td>
+                                        <td>45,30 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Ferran Torres</td>
+                                        <td>20</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/157.png?lm=1520611569" title="Espanha" alt="Espanha"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>23,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Yan Couto</td>
+                                        <td>18</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/26.png?lm=1520611569" title="Brasil" alt="Brasil"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>6,00 milhões €</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Issa Kaboré</td>
+                                        <td>19</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/29.png?lm=1520611569" title="Burkina Faso" alt="Burkina Faso"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>4,50 milhões €</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Leroy Sané</td>
+                                        <td>24</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/40.png?lm=1520612525" title="Alemanha" alt="Alemanha"></td>
+                                        <td>Ponta Esquerda</td>
+                                        <td>45,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>David Silva</td>
+                                        <td>34</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/157.png?lm=1520611569" title="Espanha" alt="Espanha"></td>
+                                        <td>Meia Ofensivo</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Claudio Bravo</td>
+                                        <td>37</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/33.png?lm=1520611569" title="Chile" alt="Chile"></td>
+                                        <td>Goleiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Ko Itakura</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/77.png?lm=1520611569" title="Japão" alt="Japão"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Issa Kaboré</td>
+                                        <td>19</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/29.png?lm=1520611569" title="Burkina Faso" alt="Burkina Faso"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Daniel Arzani</td>
+                                        <td>21</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/12.png?lm=1520611569" title="Austrália" alt="Austrália"></td>
+                                        <td>Ponta Esquerda</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jack Harrison</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Ponta Esquerda</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Pedro Porro</td>
+                                        <td>20</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/157.png?lm=1520611569" title="Espanha" alt="Espanha"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Ante Palaversa</td>
+                                        <td>20</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/37.png?lm=1520611569" title="Croácia" alt="Croácia"></td>
+                                        <td>Volante</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Ryotaro Meshino</td>
+                                        <td>22</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/77.png?lm=1520611569" title="Japão" alt="Japão"></td>
+                                        <td>Meia Ofensivo</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="ManchesterUnited" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Donny van de Beek</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/122.png?lm=1520611569" title="Holanda" alt="Holanda"></td>
+                                        <td>Meia Central</td>
+                                        <td>39,00 milhões €</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Cameron Borthwick-Jackson</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Lateral Esquerdo</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Alexis Sánchez</td>
+                                        <td>31</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/33.png?lm=1520611569" title="Chile" alt="Chile"></td>
+                                        <td>Centroavante</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tahith Chong</td>
+                                        <td>20</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/122.png?lm=1520611569" title="Holanda" alt="Holanda"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Joel Pereira</td>
+                                        <td>24</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/136.png?lm=1520611569" title="Portugal" alt="Portugal"></td>
+                                        <td>Goleiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="NewCastle" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Callum Wilson</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Centroavante</td>
+                                        <td>22,25 milhões €</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Jamal Lewis</td>
+                                        <td>22</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/192.png?lm=1520611569" title="Irlanda do Norte" alt="Irlanda do Norte"></td>
+                                        <td>Lateral Esquerdo</td>
+                                        <td>16,50 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mark Gillespie</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jeff Hendrick</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/72.png?lm=1520611569" title="Irlanda " alt="Irlanda "></td>
+                                        <td>Meia Central</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Ryan Fraser</td>
+                                        <td>26</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/190.png?lm=1520611569" title="Escócia" alt="Escócia"></td>
+                                        <td>Ponta Esquerda</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Jake Turner</td>
+                                        <td>21</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Freddie Woodman</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jack Colback</td>
+                                        <td>30</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Volante</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jetro Willems</td>
+                                        <td>26</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/122.png?lm=1520611569" title="Holanda" alt="Holanda"></td>
+                                        <td>Lateral Esquerdo</td>
+                                        <td>Fim do Empréstimo</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Valentino Lazaro</td>
+                                        <td>24</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/127.png?lm=1520611569" title="Áustria" alt="Áustria"></td>
+                                        <td>Meia Direita</td>
+                                        <td>Fim do Empréstimo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="SheffieldUnited" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Aaron Ramsdale</td>
+                                        <td>22</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>20,50 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Wes Foderingham</td>
+                                        <td>29</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Ethan Ampadu</td>
+                                        <td>19</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/191.png?lm=1520611569" title="País de Gales" alt="País de Gales"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Mark Duffy</td>
+                                        <td>34</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Meia Direita</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jake Eastwood</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Luke Freeman</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Meia Ofensivo</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Panagiotis Retsos</td>
+                                        <td>21</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/56.png?lm=1520611569" title="Grécia" alt="Grécia"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Fim do Empréstimo</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="Southampton" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Kyle Walker-Peters</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>13,30 milhões €</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Mohammed Salisu</td>
+                                        <td>21</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/54.png?lm=1520611569" title="Gana" alt="Gana"></td>
+                                        <td>Zagueiro</td>
+                                        <td>12,00 milhões €</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td>Pierre-Emile Höjbjerg</td>
+                                        <td>25</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/39.png?lm=1520611569" title="Dinamarca" alt="Dinamarca"></td>
+                                        <td>Meia Central</td>
+                                        <td>16,60 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Harrison Reed</td>
+                                        <td>25</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Volante</td>
+                                        <td>9,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mario Lemina</td>
+                                        <td>26</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/51.png?lm=1520611569" title="Gabão" alt="Gabão"></td>
+                                        <td>Volante</td>
+                                        <td>Valor de empréstimo: <br>
+                                            2,20 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Cédric Soares</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/136.png?lm=1520611569" title="Portugal" alt="Portugal"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jack Rose</td>
+                                        <td>25</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Maya Yoshida</td>
+                                        <td>32</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/77.png?lm=1520611569" title="Japão" alt="Japão"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Kevin Danso</td>
+                                        <td>21</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/127.png?lm=1520611569" title="Áustria" alt="Áustria"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Fim do Empréstimo</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="TottehamHotspur" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td>Giovani Lo Celso</td>
+                                        <td>24</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/9.png?lm=1520611569" title="Argentina" alt="Argentina"></td>
+                                        <td>Meia Central</td>
+                                        <td>32,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Matt Doherty</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/72.png?lm=1520611569" title="Irlanda " alt="Irlanda "></td>
+                                        <td>Lateral Direito</td>
+                                        <td>16,80 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Pierre-Emile Höjbjerg</td>
+                                        <td>25</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/39.png?lm=1520611569" title="Dinamarca" alt="Dinamarca"></td>
+                                        <td>Meia Central</td>
+                                        <td>16,60 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Joe Hart</td>
+                                        <td>33</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Kyle Walker-Peters</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Lateral Direito</td>
+                                        <td>13,30 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jan Vertonghen</td>
+                                        <td>33</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/19.png?lm=1520611569" title="Bélgica" alt="Bélgica"></td>
+                                        <td>Zagueiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Oliver Skipp</td>
+                                        <td>19</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Volante</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="WestBromwichAlbion" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Grady Diangana</td>
+                                        <td>22</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Ponta Esquerda</td>
+                                        <td>13,50 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Matheus Pereira</td>
+                                        <td>24</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/26.png?lm=1520611569" title="Brasil" alt="Brasil"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>9,10 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Cédric Kipré</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/50.png?lm=1520611569" title="França" alt="França"></td>
+                                        <td>Zagueiro</td>
+                                        <td>1,10 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>David Button</td>
+                                        <td>31</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>1,10 milhões €</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Jonathan Leko</td>
+                                        <td>21</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>1,10 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Nathan Ferguson</td>
+                                        <td>19</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Latera Direito</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Chris Brunt</td>
+                                        <td>35</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/192.png?lm=1520611569" title="Irlanda do Norte" alt="Irlanda do Norte"></td>
+                                        <td>Meia Central</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Alex Palmer</td>
+                                        <td>24</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Goleiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Filip Krovinovic</td>
+                                        <td>24</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/37.png?lm=1520611569" title="Croácia" alt="Croácia"></td>
+                                        <td>Meia Ofensivo</td>
+                                        <td>Fim do Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Callum Robinson</td>
+                                        <td>25</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/72.png?lm=1520611569" title="Irlanda " alt="Irlanda "></td>
+                                        <td>Ponta Esquerda</td>
+                                        <td>Fim do Empréstimo</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="WestHamUnited" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td>Tomas Soucek</td>
+                                        <td>25</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/172.png?lm=1520611569" title="República Checa" alt="República Checa"></td>
+                                        <td>Volante</td>
+                                        <td>16,20 milhões €</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Grady Diangana</td>
+                                        <td>22</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Ponta Esquerda</td>
+                                        <td>13,50 milhões €</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Albian Ajeti</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/148.png?lm=1520611569" title="Suiça" alt="Suiça"></td>
+                                        <td>Centroavante</td>
+                                        <td>5,50 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jordan Hugill</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Centroavante</td>
+                                        <td>3,30 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Roberto</td>
+                                        <td>34</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/157.png?lm=1520611569" title="Espanha" alt="Espanha"></td>
+                                        <td>Goleiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="WolverhamptonWanderers" data-parent="#collapseOne" style="margin-top: 12px;">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <th>Chegadas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Fábio Silva</td>
+                                        <td>18</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/136.png?lm=1520611569" title="Portugal" alt="Portugal"></td>
+                                        <td>Centroavante</td>
+                                        <td>40,00 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Marçal</td>
+                                        <td>31</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/26.png?lm=1520611569" title="Brasil" alt="Brasil"></td>
+                                        <td>Lateral Esquerdo</td>
+                                        <td>2,00 milhões €</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Matija Sarkic</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/216.png?lm=1520611569" title="Montenegro" alt="Montenegro"></td>
+                                        <td>Goleiro</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                <thead class="thead-dark">
+                                    <th>Saidas</th>
+                                    <th>Idade</th>
+                                    <th>Nasc.</th>
+                                    <th>Pos.</th>
+                                    <th>Valor</th>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Hélder Costa</td>
+                                        <td>26</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/136.png?lm=1520611569" title="Portugal" alt="Portugal"></td>
+                                        <td>Ponta Direita</td>
+                                        <td>17,70 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Matt Doherty</td>
+                                        <td>28</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/72.png?lm=1520611569" title="Irlanda " alt="Irlanda "></td>
+                                        <td>Lateral Direito</td>
+                                        <td>16,80 milhões €</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jordan Graham</td>
+                                        <td>25</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Ponta Esquerda</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Ming-Yang Yang</td>
+                                        <td>25</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/148.png?lm=1520611569" title="Suiça" alt="Suiça"></td>
+                                        <td>Meia Central</td>
+                                        <td>Custo Zero</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Matija Sarkic</td>
+                                        <td>23</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/216.png?lm=1520611569" title="Montenegro" alt="Montenegro"></td>
+                                        <td>Goleiro</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Morgan Gibbs-White</td>
+                                        <td>20</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra"></td>
+                                        <td>Meia Central</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Connor Ronan</td>
+                                        <td>22</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/72.png?lm=1520611569" title="Irlanda " alt="Irlanda "></td>
+                                        <td>Meia Central</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Bruno Jordão</td>
+                                        <td>21</td>
+                                        <td><img src="https://tmssl.akamaized.net/images/flagge/tiny/136.png?lm=1520611569" title="Portugal" alt="Portugal"></td>
+                                        <td>Meia Central</td>
+                                        <td>Empréstimo</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <img id="logos" src="./imagens/Logos/bundesligaLogo.png" alt="Bundesliga Logo">
+                    Bundesliga
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#divisaoLigas">
+                <div class="card-body">
+                    <a href="https://www.transfermarkt.com.br/1-bundesliga/transfers/wettbewerb/L1"> Transferencias Bundesliga</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <img id="logos" src="./imagens/Logos/ligue1Logo.png" alt="Ligue1 Logo" style="padding-left: 8px; margin-right: 32px;">
+                    Ligue 1
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#divisaoLigas">
+                <div class="card-body">
+                    <a href="https://www.transfermarkt.com.br/ligue-1/transfers/wettbewerb/FR1"> Transferencias Ligue 1</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                      <img id="logos" src="./imagens/Logos/serieaLogo.png" alt="SerieA Logo" style="padding-left: 8px; margin-right: 32px;">
+                       Serie A
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#divisaoLigas">
+                    <div class="card-body">
+                        <a href="https://www.transfermarkt.com.br/serie-a/transfers/wettbewerb/IT1"> Transferencias Serie A</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                          <img id="logos" src="./imagens/Logos/laligaLogo.png" alt="LaLiga Logo">
+                          La Liga Santander
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#divisaoLigas">
+                        <div class="card-body">
+                            <a href="https://www.transfermarkt.com.br/primera-division/transfers/wettbewerb/ES1"> Transferencias La Liga</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>   
+         </div>
+    </div>
+    <br>
+    <footer class="text-dark font-weight-bold bg-light">
+        <img src="./imagens/Logos/fifaLogo.png" alt="fifaLogo" href="https://www.fifa.com/?nav=internal">
+        <label class="footericons"><i class="fa fa-github"></i></label>
+        <a href="https://github.com/cesarmmanzano" target="_blank">Cesar</a>
+        <label class="footericons"><i class="fa fa-github"></i></label>
+        <a href="https://github.com/Fabricio-Silva-Cardoso1" target="_blank">Fabricio</a>
+        <label class="footericons"><i class="fa fa-github"></i></label>
+        <a href="https://github.com/pedro-it-Rep" target="_blank">Pedro</a>
+
+        <a href="menu.html" style="margin-left: 50%;">Menu</a>
+        <a href="futpandemia.html" style="margin-left: 1%;">Futebol na pandemia</a>
+        <a href="transferMarket.html" style="margin-left: 1%;">Mercado de transferências</a>
+    </footer>
+</body>
+
+</html>
