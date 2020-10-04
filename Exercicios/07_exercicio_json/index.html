@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="quiz.json"></script>
+    <script src="js/script.js"></script>
+
+    <title>Quiz Marcas</title>
+</head>
+
+<body id="body">
+
+    <script>
+        window.onload = function () {
+            chooseQuestion()
+        }
+    </script>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <p class="navbar-brand">Logo Quiz Game</p>
+        <div id="points" style="color: white;"></div>
+        <a class="navbar-brand" onclick="playAgain()">Jogar Novamente</a>
+    </nav>
+
+    <div id="imgDiv">
+        <img id="image">
+        <span id="span"></span>
+    </div>
+
+    <div class="buttons" style="margin-top: 28px; margin-left: 590px;">
+
+        <button id="bt1" style="margin-right: 14px;" onclick="correctAnswer('bt1')"></button>
+        <button id="bt2" onclick="correctAnswer('bt2')"></button>
+
+        <section style="margin-top: 1%"></section>
+
+        <button id="bt3" style="margin-right: 14px;" onclick="correctAnswer('bt3')"></button>
+        <button id="bt4" onclick="correctAnswer('bt4')"></button>
+
+        <section style="margin-top: 1%"></section>
+
+
+    </div>
+
+</body>
+
+</html>

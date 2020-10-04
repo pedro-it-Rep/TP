@@ -1,0 +1,140 @@
+var quizQuestions = [{
+    "name": "American Airlines",
+    "path": "img/american_airlines.jpeg",
+    "options":[
+        "American Airlines",
+        "Bank of America",
+        "Amazon",
+        "Wish"
+    ]
+},
+{
+    "name": "Bank Of America",
+    "path": "img/bank_of_america.jpeg",
+    "options":[
+        "Ford",
+        "Pepsi",
+        "Bank of America",
+        "Nike"
+    ]
+},
+{
+    "name": "Bud Light",
+    "path": "img/bud_light.jpeg",
+    "options":[
+        "Lacoste",
+        "Givenchy",
+        "Starbucks",
+        "Bud Light"
+    ]
+},
+{
+    "name": "Colgate",
+    "path": "img/colgate.jpeg",
+    "options":[
+        "Colgate",
+        "Lego",
+        "Coca Cola",
+        "Swiss"
+    ]  
+},
+{
+    "name": "Knorr",
+    "path": "img/knorr.jpeg",
+    "options":[
+        "Tic Tac",
+        "Knorr",
+        "Heineken",
+        "Tropicana"
+    ] 
+},
+{
+    "name": "Lamborghini",
+    "path": "img/lamborghini.jpeg",
+    "options":[
+        "Land Rover",
+        "Ferrari",
+        "Lamborghini",
+        "Alfa Romeo"
+    ] 
+},
+{
+    "name": "NBC",
+    "path": "img/nbc.jpeg",
+    "options":[
+        "NBC",
+        "FedEx",
+        "Band",
+        "Motorola"
+    ] 
+},
+{
+    "name": "Tesla",
+    "path": "img/tesla.jpeg",
+    "options":[
+        "Tampax",
+        "Tabasco",
+        "Suzuki",
+        "Tesla"
+    ] 
+},
+{
+    "name": "Movistar",
+    "path": "img/movistar.jpeg",
+    "options":[
+        "Marshall",
+        "Movistar",
+        "Marantz",
+        "Manfrotto"
+    ] 
+},
+{
+    "name": "Mazda",
+    "path": "img/mazda.jpeg",
+    "options":[
+        "Mazda",
+        "Hyundai",
+        "Toyota",
+        "Daewoo"
+    ] 
+},
+{
+    "name": "Mclaren",
+    "path": "img/mclaren.jpeg",
+    "options":[
+        "Williams",
+        "Mercedes",
+        "Red Bull",
+        "Mclaren"
+    ] 
+},
+{
+    "name": "Nubank",
+    "path": "img/nubank.jpeg",
+    "options":[
+        "Microsoft",
+        "Natixis",
+        "Bradesco",
+        "Nubank"
+    ] 
+},
+{
+    "name": "Acura",
+    "path": "img/acura.jpeg",
+    "options":[
+        "Simca",
+        "Datsun",
+        "Acura",
+        "Volvo"
+    ] 
+},
+{
+    "name": "Scandinavian Airlines",
+    "path": "img/scandinavian_airlines.jpeg",
+    "options":[
+        "Saudi Airlines Saudia",
+        "Scandinavian Airlines",
+        "Seaborne Airlines",
+        "Sriwijaya Air"
+    ]  
+}];
